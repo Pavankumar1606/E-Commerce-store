@@ -5,17 +5,16 @@ This is a Node.js-based E-Commerce application designed to provide a seamless sh
 
 ## Features
 - User authentication and authorization
-- Product catalog with search and filter options
+- Product catalog 
 - Shopping cart and checkout system
-- Order history and management
 - Admin panel for product and order management
 
 ## Technologies Used
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT), bcrypt
-- **Frontend**: HTML, CSS, JavaScript (or React/Angular if applicable)
-- **Other Tools**: dotenv, nodemailer, etc.
+- **Frontend**: React
+- **Other Tools**: dotenv
 
 ## Installation
 
@@ -55,7 +54,6 @@ E-Commerce/
 ├── controllers/    # Route handlers
 ├── middleware/     # Custom middleware
 ├── public/         # Static files
-├── views/          # Frontend templates (if applicable)
 ├── .env            # Environment variables
 ├── server.js       # Application entry point
 ```
